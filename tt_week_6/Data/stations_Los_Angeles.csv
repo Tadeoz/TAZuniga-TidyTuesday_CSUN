@@ -1,0 +1,258 @@
+STATION_NAME,CITY,STATE,LONGITUDE,LATITUDE,FACILITY_TYPE,FUEL_TYPE_CODE
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 10,Los Angeles,CA,-118.220154,34.056631,FLEET_GARAGE,CNG
+Clean Energy - Los Angeles International Airport,Los Angeles,CA,-118.377866,33.941383,AIRPORT,CNG
+Los Angeles Convention Center,Los Angeles,CA,-118.271387,34.040539,PARKING_GARAGE,ELEC
+Clean Energy - Los Angeles International Airport,Los Angeles,CA,-118.420055,33.941974,AIRPORT,LNG
+Los Angeles International Airport (LAX) - Lot 6,Los Angeles,CA,-118.403342,33.94325,AIRPORT,ELEC
+Northridge Fashion Center - Yard House,Northridge,CA,-118.556708,34.241116,SHOPPING_MALL,ELEC
+Westfield Fashion Square,Sherman Oaks,CA,-118.434454,34.156839,SHOPPING_CENTER,ELEC
+Van Nuys Amtrak/Metrolink Station,Van Nuys,CA,-118.448704,34.21108,PARKING_LOT,ELEC
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 5,Los Angeles,CA,-118.317126,33.992627,FLEET_GARAGE,CNG
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 3,Los Angeles,CA,-118.223768,34.088243,FLEET_GARAGE,CNG
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 7,Los Angeles,CA,-118.382413,34.085569,FLEET_GARAGE,CNG
+U-Haul,Los Angeles,CA,-118.308645,34.043302,RENTAL_CAR_RETURN,LPG
+Avcogas,Los Angeles,CA,-118.265792,33.98873,FUEL_RESELLER,LPG
+U-Haul,Los Angeles,CA,-118.15702,34.022744,RENTAL_CAR_RETURN,LPG
+U-Haul,Los Angeles,CA,-118.291148,33.934865,RENTAL_CAR_RETURN,LPG
+U-Haul,Los Angeles,CA,-118.309261,34.007712,RENTAL_CAR_RETURN,LPG
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 1,Los Angeles,CA,-118.238553,34.038221,FLEET_GARAGE,CNG
+United Parcel Service,Los Angeles,CA,-118.222392,34.064532,STANDALONE_STATION,CNG
+Hotel Sofitel,Los Angeles,CA,-118.377527,34.076264,HOTEL,ELEC
+Music Center Parking - Level 2,Los Angeles,CA,-118.24789,34.057657,PAY_GARAGE,ELEC
+California State University - Northridge,Northridge,CA,-118.523887,34.248959,COLLEGE_CAMPUS,ELEC
+California State University - Northridge,Northridge,CA,-118.528543,34.241687,COLLEGE_CAMPUS,ELEC
+California State University - Northridge,Northridge,CA,-118.532588,34.236853,COLLEGE_CAMPUS,ELEC
+Northridge Metrolink Station,Northridge,CA,-118.544827,34.229277,PARKING_LOT,ELEC
+Getty Center,Los Angeles,CA,-118.474585,34.077588,PARKING_GARAGE,ELEC
+Helms Bakery Building,Los Angeles,CA,-118.385231,34.029971,PARKING_GARAGE,ELEC
+City of Los Angeles - West Valley,Northridge,CA,-118.549408,34.232569,MUNI_GOV,LNG
+City of Los Angeles - South Los Angeles,Los Angeles,CA,-118.225351,34.032695,MUNI_GOV,CNG
+City of Los Angeles - South Los Angeles,Los Angeles,CA,-118.225351,34.032695,MUNI_GOV,LNG
+City of Los Angeles - West Valley,Northridge,CA,-118.549408,34.232569,MUNI_GOV,CNG
+Los Angeles International Airport (LAX) - Lot 1,Los Angeles,CA,-118.399767,33.944761,AIRPORT,ELEC
+Clean Energy - University of California Los Angeles,Los Angeles,CA,-118.447096,34.067097,COLLEGE_CAMPUS,CNG
+Los Angeles Department of Water and Power - Downtown (Duco) Yard,Los Angeles,CA,-118.236702,34.051852,MUNI_GOV,CNG
+Los Angeles Department of Water and Power - Saticoy Yard,Van Nuys,CA,-118.4480535,34.2084913,MUNI_GOV,CNG
+ConservFuel,Los Angeles,CA,-118.465643,34.053925,STANDALONE_STATION,E85
+City of Los Angeles - Central Los Angeles Recycling and Transfer Station,Los Angeles,CA,-118.234484,34.020214,MUNI_GOV,LPG
+Los Angeles World Airport (LAX),Los Angeles,CA,-118.426241,33.941654,FLEET_GARAGE,LPG
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 2,Los Angeles,CA,-118.253749,34.029763,FLEET_GARAGE,CNG
+Los Angeles International Airport,Los Angeles,CA,-118.377866,33.941383,AIRPORT,HY
+Clean Energy - La Cienega,Los Angeles,CA,-118.375858,34.059388,STANDALONE_STATION,CNG
+City of Los Angeles - North Central,Los Angeles,CA,-118.224411,34.079374,MUNI_GOV,CNG
+City of Los Angeles - North Central,Los Angeles,CA,-118.224411,34.079374,MUNI_GOV,LNG
+Clean Energy - Veolia Transportation,Los Angeles,CA,-118.227717,34.068069,FLEET_GARAGE,CNG
+Nissan of Downtown Los Angeles,Los Angeles,CA,-118.273229,34.035168,CAR_DEALER,ELEC
+Universal City Nissan,Los Angeles,CA,-118.356601,34.133446,CAR_DEALER,ELEC
+Nissan of Van Nuys,Sherman Oaks,CA,-118.449059,34.168824,CAR_DEALER,ELEC
+Los Angeles County - Museum of Art,Los Angeles,CA,-118.35808,34.063383,MUSEUM,ELEC
+Nissan of Van Nuys,Sherman Oaks,CA,-118.449059,34.168824,CAR_DEALER,ELEC
+Universal City Nissan,Los Angeles,CA,-118.356601,34.133446,CAR_DEALER,ELEC
+Nissan of Downtown Los Angeles,Los Angeles,CA,-118.273229,34.035168,CAR_DEALER,ELEC
+"AAA - Auto Club of Southern California, Los Angeles Branch",Los Angeles,CA,-118.2778,34.02828,OFFICE_BLDG,ELEC
+Marriott - Renaissance Los Angeles Airport Hotel,Los Angeles,CA,-118.385,33.9492,HOTEL,ELEC
+Los Angeles Unified School District,Los Angeles,CA,-118.257312,34.031714,SCHOOL,LPG
+Los Angeles Unified School District,Van Nuys,CA,-118.486698,34.220778,SCHOOL,LPG
+Waste Management - Sun Valley Hauling,Los Angeles,CA,-118.380554,34.235534,FLEET_GARAGE,LNG
+City of Los Angeles - West Los Angeles,Los Angeles,CA,-118.450718,34.035901,MUNI_GOV,CNG
+Marymount College at San Pedro,Los Angeles,CA,-118.302516,33.777672,COLLEGE_CAMPUS,ELEC
+West Los Angeles Veterans Affairs Medical Center,Los Angeles,CA,-118.4529,34.053085,HOSPITAL,ELEC
+Keyes Chevrolet,Van Nuys,CA,-118.448808,34.178786,CAR_DEALER,ELEC
+Keyes Toyota,Van Nuys,CA,-118.449689,34.17717,CAR_DEALER,ELEC
+University of California Los Angeles - Parking Structure 9,Los Angeles,CA,-118.444049,34.068005,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Parking Structure 4,Los Angeles,CA,-118.444801,34.072975,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Parking Structure 4,Los Angeles,CA,-118.444801,34.072975,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Parking Structure 8,Los Angeles,CA,-118.445041,34.068375,COLLEGE_CAMPUS,ELEC
+Sunset Village Parking,Los Angeles,CA,-118.45186,34.071223,COLLEGE_CAMPUS,ELEC
+City of Los Angeles - Bel Air,Los Angeles,CA,-118.442645,34.043878,MUNI_GOV,CNG
+City of Los Angeles - Hollywood,Los Angeles,CA,-118.334725,34.088915,MUNI_GOV,CNG
+City of Los Angeles - Southwest,Los Angeles,CA,-118.314836,33.988024,MUNI_GOV,CNG
+Air Products and Chemicals Inc - Los Angeles,Los Angeles,CA,-118.358673,34.076363,GAS_STATION,HY
+California State University Los Angeles - Hydrogen Research & Fueling Facility,Los Angeles,CA,-118.165565,34.065956,COLLEGE_CAMPUS,HY
+True Zero - Hollywood Blvd,Los Angeles,CA,-118.314034,34.101336,GAS_STATION,HY
+True Zero - Lincoln Blvd,Los Angeles,CA,-118.421458,33.963119,GAS_STATION,HY
+7-Eleven,Los Angeles,CA,-118.238742,34.027082,GAS_STATION,LPG
+Walt Disney Concert Hall,Los Angeles,CA,-118.248852,34.055505,PAY_GARAGE,ELEC
+Hall of Administration,Los Angeles,CA,-118.247789,34.056889,FLEET_GARAGE,ELEC
+Los Angeles Law Library,Los Angeles,CA,-118.245143,34.055034,PAY_GARAGE,ELEC
+Music Center Parking - Level 3,Los Angeles,CA,-118.24789,34.057657,PAY_GARAGE,ELEC
+Department of Health Services Administration,Los Angeles,CA,-118.24936,34.059816,PAY_GARAGE,ELEC
+Los Angeles County Sheriff - Men's Central Jail,Los Angeles,CA,-118.231965,34.059715,PRISON,ELEC
+Los Angeles County Sheriff - Twin Towers Detention Facility,Los Angeles,CA,-118.23038108,34.05870229,PRISON,ELEC
+Los Angeles County Sheriff - Communications Center,Los Angeles,CA,-118.175097,34.052588,MUNI_GOV,ELEC
+Los Angeles County - University of Southern California Medical Center,Los Angeles,CA,-118.211604,34.062497,HOSPITAL,ELEC
+Internal Services Department Headquarters,Los Angeles,CA,-118.174908,34.050994,MUNI_GOV,ELEC
+Internal Services Department Telecomm,Los Angeles,CA,-118.170353,34.048249,MUNI_GOV,ELEC
+Los Angeles Metro - Union Station,Los Angeles,CA,-118.232293,34.056077,PARKING_LOT,ELEC
+Los Angeles Unified School District,Los Angeles,CA,-118.376286,34.203038,SCHOOL,CNG
+Trillium - Los Angeles Unified School District,Los Angeles,CA,-118.255359,34.03074,SCHOOL,CNG
+Will Rogers State Historic Park,Los Angeles,CA,-118.512636,34.054983,PARK,ELEC
+Los Angeles State Historic Park,Los Angeles,CA,-118.226589,34.070849,PARK,ELEC
+ARRO Autogas - Grande Oil Inc,Los Angeles,CA,-118.210755,34.019958,GAS_STATION,LPG
+Speedy Fuel,Los Angeles,CA,-118.208679,34.01665,CONVENIENCE_STORE,CNG
+Waste Management - Sun Valley Hauling,Los Angeles,CA,-118.380554,34.235534,FLEET_GARAGE,CNG
+Extra Space Storage,Los Angeles,CA,-118.378848,34.033635,STORAGE,ELEC
+Extra Space Storage,Los Angeles,CA,-118.256827,33.985116,STORAGE,ELEC
+Extra Space Storage,Los Angeles,CA,-118.246578,34.110475,STORAGE,ELEC
+Extra Space Storage,Los Angeles,CA,-118.326458,34.1049,STORAGE,ELEC
+Clean Energy - Los Angeles County Metropolitan Transportation Authority - Division 13,Los Angeles,CA,-118.231696,34.057267,FLEET_GARAGE,CNG
+California State University - Northridge,Northridge,CA,-118.532194,34.241917,COLLEGE_CAMPUS,ELEC
+California State University - Northridge,Northridge,CA,-118.532897,34.242856,COLLEGE_CAMPUS,ELEC
+California State University - Northridge,Northridge,CA,-118.524479,34.237626,COLLEGE_CAMPUS,ELEC
+California State University - Northridge,Northridge,CA,-118.526461,34.237474,COLLEGE_CAMPUS,ELEC
+U-Haul,Van Nuys,CA,-118.448601,34.208917,RENTAL_CAR_RETURN,LPG
+U-Haul,Los Angeles,CA,-118.334655,34.034254,RENTAL_CAR_RETURN,LPG
+U-Haul,Los Angeles,CA,-118.251762,34.110029,RENTAL_CAR_RETURN,LPG
+U-Haul,Northridge,CA,-118.529575,34.228454,RENTAL_CAR_RETURN,LPG
+Department of Public Social Services - County Auto Park 46,Los Angeles,CA,-118.273933,34.026145,PAY_GARAGE,ELEC
+Internal Services Shop,Los Angeles,CA,-118.173119,34.049091,FLEET_GARAGE,ELEC
+Los Angeles County Sheriff - Fleet Shop,Los Angeles,CA,-118.172348,34.049683,MUNI_GOV,ELEC
+Los Angeles County - University of Southern California Medical Center,Los Angeles,CA,-118.208429,34.056904,HOSPITAL,ELEC
+Department of Children & Family Services,Los Angeles,CA,-118.291076,33.96346,MUNI_GOV,ELEC
+Natural History Museum,Los Angeles,CA,-118.289337,34.017635,MUSEUM,ELEC
+Whole Foods Market,Sherman Oaks,CA,-118.466535,34.151681,GROCERY,ELEC
+The Grove,Los Angeles,CA,-118.358158,34.072939,SHOPPING_MALL,ELEC
+Good Samaritan Hospital - Level 3,Los Angeles,CA,-118.267077,34.055329,HOSPITAL,ELEC
+Caltrans District 7 - Equipment Shop,Los Angeles,CA,-118.4831458,34.3105669,STATE_GOV,ELEC
+Cedars - Sinai Medical Center,Los Angeles,CA,-118.381799,34.074538,HOSPITAL,ELEC
+Los Angeles Zoo,Los Angeles,CA,-118.283976,34.148873,OTHER_ENTERTAINMENT,ELEC
+Good Samaritan Hospital - Level 2,Los Angeles,CA,-118.264153,34.053453,HOSPITAL,ELEC
+Ronald Reagan State Building,Los Angeles,CA,-118.246717,34.049286,STATE_GOV,ELEC
+Caltrans - District 7,Los Angeles,CA,-118.4287891,33.9819128,STATE_GOV,ELEC
+Caltrans - District 32,Los Angeles,CA,-118.243344,34.052238,STATE_GOV,ELEC
+Woodland Hills Corporate Center,Los Angeles,CA,-118.59117,34.167153,OFFICE_BLDG,ELEC
+United Parcel Service,Los Angeles,CA,-118.222392,34.064532,STANDALONE_STATION,ELEC
+TBWA\Chiat\Day,Los Angeles,CA,-118.415287,33.982929,OFFICE_BLDG,ELEC
+California State University - Northridge,Northridge,CA,-118.527753,34.235503,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Housing Sawtelle Parking Structure,Los Angeles,CA,-118.426229,34.021353,COLLEGE_CAMPUS,ELEC
+University of Southern California,Los Angeles,CA,-118.277869,34.019032,COLLEGE_CAMPUS,ELEC
+Los Angeles County - Fire Department Headquarters,Los Angeles,CA,-118.172655,34.054045,MUNI_GOV,ELEC
+Whole Foods Market,Los Angeles,CA,-118.43768,34.022365,GROCERY,ELEC
+Los Angeles Police Department - Main Street Parking,Los Angeles,CA,-118.24510578,34.04977236,MUNI_GOV,ELEC
+East Century Boulevard Street Parking,Los Angeles,CA,-118.241112,33.9457165,STREET_PARKING,ELEC
+Skirball Cultural Center,Los Angeles,CA,-118.479053,34.124839,MUSEUM,ELEC
+Los Angeles International Airport (LAX) - Lot 7,Los Angeles,CA,-118.399183,33.944267,AIRPORT,ELEC
+Helms Bakery Building,Los Angeles,CA,-118.385231,34.029971,PARKING_GARAGE,ELEC
+Cedars - Sinai Medical Center,Los Angeles,CA,-118.379207,34.074544,HOSPITAL,ELEC
+Cedars - Sinai Medical Center,Los Angeles,CA,-118.375833,34.070505,HOSPITAL,ELEC
+Kenneth Hahn Recreation Area,Los Angeles,CA,-118.369027,34.006112,PARK,ELEC
+Pearson Fuels - United,Los Angeles,CA,-118.400332,34.0316,CONVENIENCE_STORE,E85
+True Zero - Sherman Oaks,Sherman Oaks,CA,-118.448431,34.150559,STANDALONE_STATION,HY
+Brentwood Town Center,Los Angeles,CA,-118.491118,34.04822,SHOPPING_CENTER,ELEC
+AT MATEO,Los Angeles,CA,-118.233078,34.03977,OFFICE_BLDG,ELEC
+Parking Lot,Los Angeles,CA,-118.263,34.044251,PARKING_LOT,ELEC
+Federal Reserve Bank,Los Angeles,CA,-118.259389,34.043338,FED_GOV,ELEC
+Los Angeles Metro - La Cienega,Los Angeles,CA,-118.371928,34.025701,PARKING_LOT,ELEC
+Department of Children & Family Services,Los Angeles,CA,-118.291076,33.96346,MUNI_GOV,ELEC
+Hall of Administration - Board of Supervisors,Los Angeles,CA,-118.2481775,34.0565004,FLEET_GARAGE,ELEC
+Hall of Administration,Los Angeles,CA,-118.2481775,34.0565004,PARKING_GARAGE,ELEC
+Los Angeles County - Martin Luther King Hospital - Garage Lot D,Los Angeles,CA,-118.24517,33.923359,HOSPITAL,ELEC
+Los Angeles Department of Public Works - Westchester Yard,Los Angeles,CA,-118.379886,33.962875,MUNI_GOV,ELEC
+Pearson Fuels - G&M Chevron #97,Northridge,CA,-118.502745,34.257863,CONVENIENCE_STORE,E85
+Pearson Fuels - G&M Chevron #150,Van Nuys,CA,-118.474581,34.221036,CONVENIENCE_STORE,E85
+Pearson Fuels - G&M Chevron #17,Van Nuys,CA,-118.431576,34.179659,CONVENIENCE_STORE,E85
+Met Lofts Parking Garage - Tesla Destination,Los Angeles,CA,-118.263554,34.043011,PARKING_GARAGE,ELEC
+Luxe Sunset Blvd Hotel - Tesla Destination,Los Angeles,CA,-118.46865,34.07262,HOTEL,ELEC
+Hollywood Hotel - Tesla Destination,Los Angeles,CA,-118.291312,34.093068,HOTEL,ELEC
+Wilshire West Medical Tower - Tesla Destination,Los Angeles,CA,-118.460458,34.050187,HOSPITAL,ELEC
+Doubletree by Hilton Los Angeles Downtown - Tesla Destination,Los Angeles,CA,-118.242258,34.050845,HOTEL,ELEC
+Mr. C Beverly Hills - Tesla Destination,Los Angeles,CA,-118.39853599999999,34.055356,HOTEL,ELEC
+1600 Vine Parking Garage - Tesla Destination,Los Angeles,CA,-118.326458,34.100309,PARKING_GARAGE,ELEC
+InterContinental Hotel Los Angeles - Tesla Destination,Los Angeles,CA,-118.412287,34.054111,HOTEL,ELEC
+The Glen Centre - Tesla Destination,Los Angeles,CA,-118.443821,34.127922,SHOPPING_CENTER,ELEC
+Wilshire Vermont Parking Garage - Tesla Destination,Los Angeles,CA,-118.290423,34.062171,PARKING_GARAGE,ELEC
+The Westin Bonaventure Hotel & Suites - Tesla Destination,Los Angeles,CA,-118.256518,34.052566,HOTEL,ELEC
+The Beverly Garland Hotel - Tesla Destination,Los Angeles,CA,-118.370021,34.14521,HOTEL,ELEC
+SLS Hotel at Beverly Hills - Tesla Destination,Los Angeles,CA,-118.376872,34.069941,HOTEL,ELEC
+"The Standard, Downtown LA - Tesla Destination",Los Angeles,CA,-118.256975,34.050158,HOTEL,ELEC
+Hilton Los Angeles Airport - Tesla Destination,Los Angeles,CA,-118.38161,33.946181,HOTEL,ELEC
+W Hollywood Hotel and Residences - Tesla Destination,Los Angeles,CA,-118.325867,34.10063,HOTEL,ELEC
+Hotel Bel-Air - Tesla Destination,Los Angeles,CA,-118.446351,34.086453,HOTEL,ELEC
+Chateau Marmont - Tesla Destination,Los Angeles,CA,-118.367702,34.098274,HOTEL,ELEC
+Elan Hotel - Tesla Destination,Los Angeles,CA,-118.374506,34.076335,HOTEL,ELEC
+Sofitel Los Angeles at Beverly Hills - Tesla Destination,Los Angeles,CA,-118.378446,34.076435,HOTEL,ELEC
+LEVEL Furnished Living - Tesla Destination,Los Angeles,CA,-118.25796,34.043672,HOTEL,ELEC
+Ace Hotel Los Angeles - Tesla Destination,Los Angeles,CA,-118.256855,34.042055,HOTEL,ELEC
+W Hotel Los Angeles - West Beverly Hills - Tesla Destination,Los Angeles,CA,-118.440894,34.063243,HOTEL,ELEC
+Hotel Figueroa - Tesla Destination,Los Angeles,CA,-118.264075,34.045537,HOTEL,ELEC
+Signature Flight Support Van Nuys East - Tesla Destination,Van Nuys,CA,-118.487033,34.200613,AIRPORT,ELEC
+Yahoo Inc - Playa Vista,Los Angeles,CA,-118.402015,33.9831,OFFICE_BLDG,ELEC
+One Santa Fe,Los Angeles,CA,-118.232425,34.045989,OFFICE_BLDG,ELEC
+Los Angeles Department of Water and Power - Los Angeles,Los Angeles,CA,-118.368149,34.039648,MUNI_GOV,CNG
+Los Angeles Department of Water and Power - Northridge,Northridge,CA,-118.529347,34.25707,MUNI_GOV,CNG
+Warner Music Group,Los Angeles,CA,-118.2303193,34.0335712,OFFICE_BLDG,ELEC
+Los Angeles Metro - Expo Sepulveda Station,Los Angeles,CA,-118.437913,34.0345678,PARKING_LOT,ELEC
+The Mill,Los Angeles,CA,-118.3734502,34.0289199,OFFICE_BLDG,ELEC
+Baxter Credit Union,Los Angeles,CA,-118.2704776,34.142464,BANK,ELEC
+Los Angeles Metro - Division 13 Bus Maintenance and Operations,Los Angeles,CA,-118.2308693,34.0573958,FLEET_GARAGE,ELEC
+Chevron,Los Angeles,CA,-118.256442,34.106436,CONVENIENCE_STORE,E85
+University of California Los Angeles - Parking Structure 18,Los Angeles,CA,-118.443164,34.064306,COLLEGE_CAMPUS,ELEC
+Nissani Brothers Nissan,Los Angeles,CA,-118.3978393,33.9840806,CAR_DEALER,ELEC
+Nissani Brothers Nissan,Los Angeles,CA,-118.3978393,33.9840806,CAR_DEALER,ELEC
+Los Angeles County - Internal Services Department,Los Angeles,CA,-118.174,34.051,MUNI_GOV,ELEC
+Walgreens #6854,Los Angeles,CA,-118.215236,34.138765,SHOPPING_CENTER,ELEC
+Whole Foods Market Brentwood,Los Angeles,CA,-118.467033,34.053546,GROCERY,ELEC
+Childrens Hospital LA,Los Angeles,CA,-118.291,34.098,HOSPITAL,ELEC
+LADWP - Materials Test Lab,Los Angeles,CA,-118.237458,34.04684,MUNI_GOV,ELEC
+City of Los Angeles Lot 702,Los Angeles,CA,-118.327438,34.100573,PARKING_GARAGE,ELEC
+One Westside Shopping Center,Los Angeles,CA,-118.440474,34.037458,SHOPPING_MALL,ELEC
+Westwood Marketplace,Los Angeles,CA,-118.447167,34.061481,SHOPPING_MALL,ELEC
+Walgreens #6445,Los Angeles,CA,-118.383455,34.054167,SHOPPING_MALL,ELEC
+La Brea,Los Angeles,CA,-118.344568,34.071538,SHOPPING_MALL,ELEC
+Whole Foods Market Downtown Los Angeles,Los Angeles,CA,-118.257409,34.046265,SHOPPING_MALL,ELEC
+Northridge Fashion Center - California Pizza Kitchen,Northridge,CA,-118.555202,34.240633,SHOPPING_MALL,ELEC
+Northridge Fashion Center - East Garage Lower Level,Northridge,CA,-118.554995,34.238799,SHOPPING_MALL,ELEC
+City of Los Angeles Lot 670,Los Angeles,CA,-118.334348,34.102397,PARKING_GARAGE,ELEC
+Urban Radish,Los Angeles,CA,-118.23151,34.035881,RESTAURANT,ELEC
+Cos Bar,Los Angeles,CA,-118.4911261,34.0481761,SHOPPING_CENTER,ELEC
+Baxalta Los Angeles,Van Nuys,CA,-118.4794636,34.216253,FACTORY,ELEC
+City of Los Angeles Lot 745,Los Angeles,CA,-118.339438,34.102542,PARKING_GARAGE,ELEC
+City of Los Angeles Lot 675,Los Angeles,CA,-118.2910523,34.10391149,PARKING_LOT,ELEC
+City of Los Angeles Lot 656,Los Angeles,CA,-118.452764,34.044509,PARKING_LOT,ELEC
+The Cosmopolitan BW,Los Angeles,CA,-118.468824,34.060114,MULTI_UNIT_DWELLING,ELEC
+Otis College of Art and Design,Los Angeles,CA,-118.417252,33.956006,COLLEGE_CAMPUS,ELEC
+Federal Reserve Bank of Los Angeles,Los Angeles,CA,-118.259525,34.043329,BANK,ELEC
+Barlow Respiratory Hospital,Los Angeles,CA,-118.247709,34.074638,HOSPITAL,ELEC
+LADWP - Sepulveda Center,Van Nuys,CA,-118.46533,34.179965,BANK,ELEC
+LADWP - Temple St,Los Angeles,CA,-118.23696,34.052494,OFFICE_BLDG,ELEC
+LADWP - 1145 Bates Ave,Los Angeles,CA,-118.28245,34.094996,STANDALONE_STATION,ELEC
+Los Angeles Department of Water and Power - Los Angeles,Los Angeles,CA,-118.368149,34.039648,MUNI_GOV,ELEC
+Caltrans Alameda Maintenance Station,Los Angeles,CA,-118.2407656,34.0238256,STATE_GOV,ELEC
+Caltrans Los Angeles Regional TMC,Los Angeles,CA,-118.2273522,34.14619,STATE_GOV,ELEC
+Caltrans South Region & Century,Los Angeles,CA,-118.3764977,33.9306894,STATE_GOV,ELEC
+Eretz Properties,Los Angeles,CA,-118.377057,34.053858,OFFICE_BLDG,ELEC
+ROW DTLA - Tesla Supercharger,Los Angeles,CA,-118.240294,34.033065,SHOPPING_MALL,ELEC
+Trillium - County of Los Angeles,Los Angeles,CA,-118.236932,34.061086,MUNI_GOV,CNG
+Pavillions - Sherman Oaks,Sherman Oaks,CA,-118.456954,34.153146,GROCERY,ELEC
+Whole Foods Market - Sherman Oaks SHM,Sherman Oaks,CA,-118.444938,34.150663,GROCERY,ELEC
+University of California Los Angeles - Parking Structure 1,Los Angeles,CA,-118.447506,34.06471,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Parking Structure 5,Los Angeles,CA,-118.442876,34.073943,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Parking Structure 32,Los Angeles,CA,-118.447749,34.059973,COLLEGE_CAMPUS,ELEC
+University of California Los Angeles - Sunset Village Parking Structure,Los Angeles,CA,-118.449654,34.073885,COLLEGE_CAMPUS,ELEC
+Shell - Los Angeles,Los Angeles,CA,-118.353378,34.04088,GAS_STATION,HY
+Chevron,Los Angeles,CA,-118.44915,34.18229,CONVENIENCE_STORE,E85
+G&M,Los Angeles,CA,-118.33548,34.025851,CONVENIENCE_STORE,E85
+Shell,Los Angeles,CA,-118.158225,34.015924,CONVENIENCE_STORE,E85
+Shell,Los Angeles,CA,-118.238841,34.025149,CONVENIENCE_STORE,E85
+Stella Car,Los Angeles,CA,-118.381772,33.947022,PAY_GARAGE,ELEC
+LGBT Center,Los Angeles,CA,-118.337644,34.091868,OFFICE_BLDG,ELEC
+City of Los Angeles - Van Nuys,Van Nuys,CA,-118.506377,34.180428,MUNI_GOV,CNG
+AJ Kirkwood & Associates,Los Angeles,CA,-118.45765,34.042587,MULTI_UNIT_DWELLING,ELEC
+VISN 22/LOS ANGELES,Los Angeles,CA,-118.4529,34.053085,FED_GOV,ELEC
+FAA - Flight Standards Office Building (Van Nuys FSDO),Van Nuys,CA,-118.492835,34.201559,FED_GOV,ELEC
+Facebook Creative Offices,Northridge,CA,-118.49884,34.22532,OFFICE_BLDG,ELEC
+Los Angeles Fine Arts & Wine Storage,Los Angeles,CA,-118.455113,34.029426,OFFICE_BLDG,ELEC
+The SW by CLG Apartment,Los Angeles,CA,-118.444283,34.04086,MULTI_UNIT_DWELLING,ELEC
+Slauson 76,Los Angeles,CA,-118.362223,33.987333,GAS_STATION,LPG
+American Roofing Supply,Los Angeles,CA,-118.209634,34.017754,HARDWARE_STORE,LPG
+SPD,Los Angeles,CA,-118.260108,34.051006,FED_GOV,ELEC
+FAA - Flight Standards Office Building - Van Nuys FSDO,Van Nuys,CA,-118.492768,34.201485,FED_GOV,ELEC
+The Elysian,Los Angeles,CA,-118.24927772,34.06716555,MULTI_UNIT_DWELLING,ELEC
+City of Los Angeles - Lot 639,Los Angeles,CA,-118.19384562,34.10846691,PARKING_LOT,ELEC
+City of Los Angeles - Lot 657,Los Angeles,CA,-118.21762529,34.07290953,PARKING_LOT,ELEC
+City of Los Angeles - Lot 653,Los Angeles,CA,-118.45019536,34.04635806,PARKING_LOT,ELEC
+City of Los Angeles - Lot 652,Los Angeles,CA,-118.45217546,34.04607499,PARKING_LOT,ELEC
+Los Angeles Metro - Metro Maintenance Facility,Los Angeles,CA,-118.230154,34.038934,PARKING_LOT,ELEC
+Los Angeles Metro - CMF,Los Angeles,CA,-118.22932,34.060066,PARKING_LOT,ELEC
+Los Angeles Metro - Metropolitan Transportation Authority Headquarters,Los Angeles,CA,-118.232591,34.055413,PARKING_LOT,ELEC
+Los Angeles Metro - Willowbrook Rosa Parks,Los Angeles,CA,-118.239358,33.927004,PARKING_LOT,ELEC

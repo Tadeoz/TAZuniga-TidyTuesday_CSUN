@@ -29,7 +29,7 @@ ggplot(aes
   geom_jitter()+ # jitter plot , interchangeable geom_point # try new plot next tt
  facet_wrap(~Group)+  #facet data by Groups - easier to distinguish data by age groups
 labs(title = "Single Widows", # Adding title 
-     subtitle = "Male vs Female seperated by age groups", # Adding subtitle 
+     subtitle = "Male vs Female ages 55 and below", # Adding subtitle 
      y = "Widowed", # changing axes titles (x-axis) # y axis label 
      x = "Single", # changing axes titles (y-axis) # x axis label 
      caption = "Tidy Tuesday: Dubois Challenge_7 2022-02-18")+ # Adding caption for the source used for data
