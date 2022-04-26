@@ -1,0 +1,183 @@
+---
+title: "TidyTuesday_Week12"
+author: "Tadeo Aviles Zuniga"
+date: '2022-04-26'
+output: html_document
+prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r load data, include = FALSE}
+
+ library(prettydoc)
+ library(devtools)
+ library(ggplot2)
+ library(usethis)
+ library(tidyverse)
+ library(ComplexHeatmap)
+ #library(RColorBrewer)
+ #library(circlize)
+```
+Data: [Indoor Air Pollution](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-04-12/readme.md)
+```{r}
+#read in Tidy Tuesday data
+#load data
+ip <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-04-12/indoor_pollution.csv')
+view(ip)
+#clean data, mutate Deaths column for easier call of the column, select for columns "Entity", "Year" "Deaths
+j<-ip %>% mutate(Deaths =`Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: Age-standardized (Percent)`,
+                 Country = Entity) %>%
+  select(Country, Year, Deaths) %>% group_by(Country)  %>% #group by Entity, in order to use top_n for top deaths by countries,  
+ arrange(-Deaths) %>% top_n(1) %>% head(n=10) %>% #using the arrange by deaths to get top countries by most death by pollution, # head function selects top rows of countries with most death by pollutions
+  as.matrix #creates matrix 
+
+```
+```{r Heat1, fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center'}
+Heatmap(j [,c("Year", "Deaths", "Country")], name = "Pollution Matrix" , #call heatmap, to produce heatmap 
+        row_title = "Death by Pollution", #Label rows 
+        cluster_rows = TRUE, #cluster
+        clustering_distance_rows = "euclidean", #can alter distance methods example : Manhattan, pearson, binary
+        clustering_method_rows = "complete",#complete cluster
+        row_dend_side = c("left", "right"), #decide which side to put dendogram
+        column_title = "Matrix of Pollution related Deaths", # Title of heatmap 
+        show_heatmap_legend = TRUE, #show legend 
+        show_row_names = TRUE, #show row names 
+        show_column_names = TRUE,#show column names 
+        show_column_dend = TRUE,# show dendogram 
+        heatmap_legend_param = list(title = "Pollution Matrix",#Legend mapping of title 
+                                    labels_gp = gpar(fontsize = 7),#font size legend 
+                                    title_position = c("topcenter"),#position title 
+                                    color_bar = c("discrete"),#color bar discrete or continious 
+                                    labels_gp = gpar(fontsize = 7),#Dont know 
+                                    title_gp = gpar(fontsize = 10, fontface = "bold"), #Fontsize of legened 
+                                    nrow = 5, #row of legend 
+                                    ncol = 3,
+                                    legend_direction = c("vertical")))#column of legend
+```
+
+
+```{r Heat2, fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center'}
+
+Heatmap(j [,c("Year", "Deaths")], name = "Pollution Matrix" , #call heatmap, to produce heatmap 
+        row_title = "Death by Pollution", #Label rows 
+        cluster_rows = TRUE, #cluster
+        clustering_distance_rows = "euclidean", #can alter distance methods example : Manhattan, pearson, binary
+        clustering_method_rows = "complete",#complete cluster
+        row_dend_side = c("left", "right"), #decide which side to put dendogram
+        column_title = "Matrix of Pollution related Deaths", # Title of heatmap 
+        show_heatmap_legend = TRUE, #show legend 
+        show_row_names = TRUE, #show row names 
+        show_column_names = TRUE,#show column names 
+        show_column_dend = TRUE,# show dendogram 
+        heatmap_legend_param = list(title = "Pollution Matrix",#Legend mapping of title 
+                                    labels_gp = gpar(fontsize = 7),#font size legend 
+                                    title_position = c("topcenter"),#position title 
+                                    color_bar = c("discrete"),#color bar discrete or continious 
+                                    labels_gp = gpar(fontsize = 7),#Dont know 
+                                    title_gp = gpar(fontsize = 10, fontface = "bold"), #Fontsize of legened 
+                                    nrow = 5, #row of legend 
+                                    ncol = 3,
+                                    legend_direction = c("vertical")))#column of legend
+```
+
+```{r Heat3, fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center'}
+
+j1<-ip %>% mutate(Deaths =`Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: Age-standardized (Percent)`,
+                 Country = Entity) %>%
+  select(Country, Year, Deaths) %>% group_by(Country)  %>% #group by Entity, in order to use top_n for top deaths by countries,  
+ arrange(-Deaths) %>% top_n(1) %>% head(n=25) %>% #using the arrange by deaths to get top countries by most death by pollution, # head function selects top rows of countries with most death by pollutions
+  as.matrix #creates matrix 
+
+Heatmap(j1 [,c("Country")], name = "Pollution Matrix" , #call heatmap, to produce heatmap 
+        row_title = "Death by Pollution", #Label rows 
+        #cluster_rows = TRUE, #cluster
+        #clustering_distance_rows = "euclidean", #can alter distance methods example : Manhattan, pearson, binary
+        #clustering_method_rows = "complete",#complete cluster
+        #row_dend_side = c("left", "right"), #decide which side to put dendogram
+        column_title = "Top 25 Countries Death by Pollution", # Title of heatmap 
+        show_heatmap_legend = TRUE, #show legend 
+        show_row_names = TRUE, #show row names 
+        show_column_names = TRUE,#show column names 
+        #show_column_dend = TRUE,# show dendogram 
+        heatmap_legend_param = list(title = "Pollution Matrix",#Legend mapping of title 
+                                    labels_gp = gpar(fontsize = 7),#font size legend 
+                                    title_position = c("topcenter"),#position title 
+                                    color_bar = c("discrete"),#color bar discrete or continious 
+                                    labels_gp = gpar(fontsize = 7),#Dont know 
+                                    title_gp = gpar(fontsize = 10, fontface = "bold"), #Fontsize of legened 
+                                    nrow = NULL, #row of legend 
+                                    ncol = 1,
+                                    legend_direction = c("vertical")))#column of legend
+```
+
+```{r Heat4, fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center'}
+
+
+j2<-ip %>% mutate(Deaths =`Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: Age-standardized (Percent)`,
+                 Country = Entity) %>%
+  select(Country, Year, Deaths) %>% group_by(Country)  %>% #group by Entity, in order to use top_n for top deaths by countries,  
+ arrange(-Deaths) %>% top_n(1) %>% head(n=10) %>% #using the arrange by deaths to get top countries by most death by pollution, # head function selects top rows of countries with most death by pollutions
+  as.matrix #creates matrix 
+
+
+
+
+Heatmap(j2 [,c("Country", "Deaths")], name = "Death by Country" , #call heatmap, to produce heatmap 
+        row_title = "Death by Pollution", #Label rows 
+        cluster_rows = TRUE, #cluster
+        clustering_distance_rows = "euclidean", #can alter distance methods example : Manhattan, pearson, binary
+        clustering_method_rows = "complete",#complete cluster
+        row_dend_side = c("left", "right"), #decide which side to put dendogram
+        column_title = "Most Deaths by Top Countries", # Title of heatmap 
+        show_heatmap_legend = TRUE, #show legend 
+        show_row_names = TRUE, #show row names 
+        show_column_names = TRUE,#show column names 
+        show_column_dend = TRUE,# show dendogram 
+        heatmap_legend_param = list(title = "Death by Country ",#Legend mapping of title 
+                                    labels_gp = gpar(fontsize = 7),#font size legend 
+                                    title_position = c("topcenter"),#position title 
+                                    color_bar = c("discrete"),#color bar discrete or continious 
+                                    labels_gp = gpar(fontsize = 7),#Dont know 
+                                    title_gp = gpar(fontsize = 10, fontface = "bold"), #Fontsize of legened 
+                                    nrow = NULL, #row of legend 
+                                    ncol = 2,
+                                    legend_direction = c("vertical")))#column of legend
+
+```
+```{r Heat5, fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center'}
+
+
+j3<-ip %>% mutate(Deaths =`Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: Age-standardized (Percent)`,
+                 Country = Entity) %>%
+  select(Deaths) %>% group_by(Deaths)  %>% #group by Entity, in order to use top_n for top deaths by countries,  
+ arrange(-Deaths) %>% top_n(1) %>% head(n=100) %>% #using the arrange by deaths to get top countries by most death by pollution, # head function selects top rows of countries with most death by pollutions
+  as.matrix #creates matrix 
+
+
+
+Heatmap(j3 [,c("Deaths")], name = "Top Deaths by Pollution" , #call heatmap, to produce heatmap 
+        row_title = "Death by Pollution", #Label rows 
+        cluster_rows = TRUE, #cluster
+        clustering_distance_rows = "euclidean", #can alter distance methods example : Manhattan, pearson, binary
+        clustering_method_rows = "complete",#complete cluster
+        row_dend_side = c("left", "right"), #decide which side to put dendogram
+        #column_title = "Top Deaths By Pollution ", # Title of heatmap 
+        show_heatmap_legend = TRUE, #show legend 
+        show_row_names = TRUE, #show row names 
+        show_column_names = TRUE,#show column names 
+        show_column_dend = TRUE,# show dendogram 
+        heatmap_legend_param = list(title = "Most Deaths",#Legend mapping of title 
+                                    labels_gp = gpar(fontsize = 7),#font size legend 
+                                    title_position = c("topleft"),#position title 
+                                    color_bar = c("discrete"),#color bar discrete or continious 
+                                    labels_gp = gpar(fontsize = 7),#Dont know 
+                                    title_gp = gpar(fontsize = 8, fontface = "bold"), #Fontsize of legened 
+                                    nrow = NULL, #row of legend 
+                                    ncol = 1,
+                                    legend_direction = c("vertical")))#column of legend
+```
