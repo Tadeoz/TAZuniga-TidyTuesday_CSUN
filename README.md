@@ -46,12 +46,22 @@ week_8 babynames
 - [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_6/Scripts)
 - [Output](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_6/Output)
 
-week_10- sports 
+week_10 sports 
 - [Data](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-29/readme.md)
 - [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_10/Scripts)
 - [Output]()
 
 week_12- pollution
 - [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_12/Scripts)
+
+week_13 solarwind
+- [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_13/Scripts)
+
+week_14 crossword
+- [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_14/Scripts)
+
+week_15 hidden gems 
+- [Scripts](https://github.com/Tadeoz/TAZuniga-TidyTuesday_CSUN/tree/main/tt_week_15/Scripts)
+
 
 
