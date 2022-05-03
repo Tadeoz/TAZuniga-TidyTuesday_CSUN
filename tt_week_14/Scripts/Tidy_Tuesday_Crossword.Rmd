@@ -1,0 +1,60 @@
+---
+title: "Tidy Tuesday Crossword"
+author: "Tadeo Aviles Zuniga"
+date: '2022-05-03'
+output: 
+ prettydoc::html_pretty:
+    theme: hpstr
+    highlight: github
+---
+### **Introduction** ###
+**Data:** [TidyTuesday Crossword]()
+ 
+```{r, message = FALSE, warning = FALSE, echo = FALSE}
+#load data 
+library(RColorBrewer)
+library(here)
+library(tidyverse)
+library(lubridate)
+library(easypackages)
+library(purrr)
+easypackages::libraries("tidyverse", "janitor", "readxl", "readr", "scales", "purr", "glue")
+```
+```{r load, echo = FALSE, warning = FALSE, message = FALSE}
+#Read in data
+#load tidy tuesday data US solar and wind
+crossword <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-04-19/big_dave.csv')
+```
+**Wrangling Data:** Using lubridate
+```{r wrangle, echo= TRUE, warning = FALSE, message = FALSE}
+ cw<- crossword  %>%  
+ mutate(datetimes = ymd(puzzle_date),#create new column datetimes
+        year = year(datetimes)) %>% #create column years
+  filter(year == "2020") %>%#filter year 2020 
+    group_by(year) %>% #group by year
+ na.omit()#remove na values
+```
+**Plot:** this plot is a bit like the game itself showing on the y axis the clue and the answers on the circularized bar plot. 
+```{r plot , fig.width = 12, fig.height=16, fig.asp=1.2, fig.align='center', message = FALSE,echo = TRUE,  warning = FALSE}
+
+cw[1:35,] %>% 
+     ggplot(aes
+           (x=answer, y= clue, fill=answer)) +       
+   geom_bar(stat="identity", color = "black") +#bar plot 
+    coord_polar() +#coord makes it circular
+    theme_dark() +#theme dark
+    theme(axis.ticks.length = unit(10, "pt"),#theme for font elements 
+     title = element_text(color = "black",
+                          size = 14),
+     axis.text.y = element_text(size =6),#y title size 
+     axis.text.x = element_text(size =6),#x title size 
+     panel.grid = element_blank(),#remove panel
+     plot.margin = unit(c(1,0,-4,0), "cm",),
+    legend.position = "none")+#remove legend 
+  scale_x_discrete(labels = cw$answer)+# create separation of discrete values 
+  scale_fill_viridis_d(option = "B")+#use color fill viridis B for magma color 
+  labs(title = "Coordinate Plot of Clue and Answers",#plot title 
+       y = "Clue")
+
+```
+
