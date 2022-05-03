@@ -1,0 +1,73 @@
+---
+title: "Tidy Tuesday Solar Wind Data"
+author: "Tadeo Aviles Zuniga"
+date: '2022-05-03'
+output: 
+ prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+---
+---
+
+### **Introduction** ###
+**Data:** [TidyTuesday US Solar Wind](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-05-03/readme.md)
+ 
+```{r, message = FALSE, warning = FALSE, echo = FALSE}
+#load data 
+library(lubridate)
+library(tidyverse)
+library(here)
+
+```
+
+```{r load, echo = FALSE, warning = FALSE, message = FALSE}
+#Read in data
+#load tidy tuesday data US solar and wind
+wind <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-03/wind.csv')
+solar <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-03/solar.csv')
+```
+**Wrangling Data:** Using lubridate
+```{r wrangle, echo= TRUE, warning = FALSE, message = FALSE}
+
+sol_wind<-left_join(solar,wind) #left join function joins our two data sets into a new dataframe
+
+cap<-sol_wind %>% mutate(datetime = ymd(date), # using lubridate the dates were put in the correct format to create a new column years
+                    year = year(datetime)) %>% #create new column years using lubridate to pull years
+   drop_na()  %>% #drop na's in the data
+   group_by(year)#group data by year
+```
+**Plot:** showing projections through the years in price and gigawatts, this plot was created using base r,
+ points and lines which allow us to look at multiple variables simultaneously. 
+```{r plot , fig.width = 6, fig.height=7, fig.asp=1.2, fig.align='center', message = FALSE,echo = TRUE,  warning = FALSE}
+#plot the first data series using plot()
+plot(cap$year, cap$solar_mwh, type= "o",#create plot
+     col="plum2", xlab = "Year", #assign color and labels to x axis
+     ylab = "Values in Price and Gigawatts", #label y axis 
+     pch=0, #phc assings the shape
+     lty=1)
+
+#add second data series to the same chart using points() and lines()
+points(cap$year, cap$wind_mwh, col="blue", pch=17) #create points for wind projection price
+lines(cap$year, cap$wind_mwh, col="blue",lty=2)#create lines for wind projection price
+
+#add third data series to the same chart using points() and lines()
+points(cap$year, cap$solar_capacity, col="brown1",pch=15)#create points for solar capacity
+lines(cap$year, cap$solar_capacity, col="brown1", lty=3)#create lines for solar capacity
+
+#add third data series to the same chart using points() and lines()
+points(cap$year, cap$wind_capacity, col="chocolate1",pch=25)#create points for wind capacity
+lines(cap$year, cap$wind_capacity, col="chocolate1", lty=3)#create lines for wind capacity
+
+legend(2012,327,legend=c("Solar Projected Price","Solar Project capacity in Gigawatts","Wind Projected Price", "Wind Project capacity in Gigawatts"),
+       col=c("plum2","brown1","blue","chocolate1"),#create legend and assign correct shapes to color and label legend using strings
+       pch=c(0,15,17,25),lty=c(1,2,3,4), #assign column to shape
+       ncol=1)#number of columns in legend 
+
+title(main = "US Solar/Wind", 
+      cex.main = 2,   font.main= 6, col.main= "plum1" #Add title, color 
+)
+
+
+
+```
+
